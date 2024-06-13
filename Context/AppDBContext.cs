@@ -4,7 +4,7 @@ namespace CardapioWeb.Context
 {
     public class AppDBContext: DbContext
     {
-        public AppDBContext(DbContextOptions<AppDBContext> options): base(options) { }
+        public AppDBContext(DbContextOption<AppDBContext> options): base(options) { }
 
     }
 }
